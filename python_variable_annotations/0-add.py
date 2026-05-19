@@ -2,7 +2,7 @@
 """Simple math utilities using variable annotations."""
 
 
-def add(a,b):
+def add(a: float, b: float) -> float:
     """Return the sum of two float values.
 
     Args:
@@ -12,4 +12,4 @@ def add(a,b):
     Returns:
         float: The sum of a and b.
     """
-    return float(a) + float(b)
+    return a + b
