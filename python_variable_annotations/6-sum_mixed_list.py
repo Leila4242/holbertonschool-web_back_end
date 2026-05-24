@@ -4,6 +4,7 @@
 """Module that defines a list of floats and integers."""
 from typing import List, Union
 
+
 def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
     """Return the sum of all float and integer values in a list.
     This function accepts a list of annotated float and integer values and returns
