@@ -4,8 +4,8 @@
 from typing import List
 
 # Defining and annotating the function
-def sum_list(input_list: List[float]):
-    sum: float = 0.0
+def sum_list(input_list: List[float])-> float:
+    sum = 0
     for i in input_list:
         sum+= i 
     return sum 
