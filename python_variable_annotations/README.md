@@ -9,7 +9,8 @@ Modules
 - `0-add.py`: `add(a: float, b: float) -> float` — Return the sum of two floats.
 - `1-concat.py`: `concat(a: str, b: str) -> str` — Return the concatenation of two strings.
 - `2-floor.py`: `floor(a: float) -> int` — Return the integer representation of a float by truncation.
-- `3-to_str.py`: (if present) — Convert values to their string representation.
+- `3-to_str.py`: `to_str(a: float) -> str` — Convert a value to its string representation.
+- `4-define_variables.py`: Demo file showing annotated variables of type `int`, `float`, `bool`, and `str`.
 
 Usage
 -----
