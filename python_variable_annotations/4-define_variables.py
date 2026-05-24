@@ -1,4 +1,5 @@
- #!/usr/bin/env python3
+#!/usr/bin/env python3
+ 
 """Example variable annotations for basic built-in types."""
 
 # Integer variable annotated explicitly.
