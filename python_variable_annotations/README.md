@@ -12,6 +12,7 @@ Modules
 - `3-to_str.py`: `to_str(a: float) -> str` — Convert a value to its string representation.
 - `4-define_variables.py`: Demo file showing annotated variables of type `int`, `float`, `bool`, and `str`.
 - `5-sum_list.py`: `sum_list(input_list: List[float]) -> float` — Return the sum of all float values in a list.
+- `7-to_kv.py`: `to_kv(k: str, v: Union[int, float]) -> Tuple[str, Union[int, float]]` — Return a typed key-value tuple.
 
 Usage
 -----

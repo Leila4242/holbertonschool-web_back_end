@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
+"""Module for creating a key-value tuple."""
+from typing import Union, Tuple
 
 
-"""Module that defines a list of floats and integers."""
-from typing import List, Union, Tuple
-
-
-def to_kv(k: str, v: Union[int, float]) -> tuple:
-    user_data: Tuple[int, Union[int, float]] = (k, v)
-    return user_data
-
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """Returns a tuple of a string and the square of an int/float."""
+    return (k, v ** 2)
