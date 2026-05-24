@@ -3,13 +3,13 @@
 """Example variable annotations for basic built-in types."""
 
 # Integer variable annotated explicitly.
-a : int = 1
+a: int = 1
 
 # Float variable annotated explicitly.
-pi : float = 3.14
+pi: float = 3.14
 
 # Boolean variable annotated explicitly.
-i_understand_annotations : bool = True
+i_understand_annotations: bool = True
 
 # String variable annotated explicitly.
-school : str = "Holberton"
+school: str = "Holberton"
