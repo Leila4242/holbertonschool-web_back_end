@@ -7,8 +7,10 @@ from typing import List, Union
 
 def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
     """Return the sum of all float and integer values in a list.
-    This function accepts a list of annotated float and integer values and returns
-    their total as a single float. It is useful for demonstrating how
+    This function accepts a list of annotated 
+    float and integer values and returns
+    their total as a single float.
+    It is useful for demonstrating how
     typed input and output can make numeric aggregation clearer.
 
     Args:
