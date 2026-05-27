@@ -28,15 +28,11 @@ def measure_time(n: int, max_delay: int) -> float:
     """
     # Start high-resolution performance counter
     start_time = time.perf_counter()
-    
     # Run the async code inside the synchronous function using event loop
     asyncio.run(wait_n(n, max_delay))
-    
     # End performance counter
     end_time = time.perf_counter()
-    
     # Calculate the total elapsed time
     total_time = end_time - start_time
-    
     # Return average time per execution
     return total_time / n
