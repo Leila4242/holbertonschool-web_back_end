@@ -42,7 +42,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     
     # 3. Bizdən nəticələrin artan sıra ilə qaytarılması tələb olunur (ascending order)
     return sorted(delays)
-
-print(asyncio.run(wait_n(2, 2)))
-print(asyncio.run(wait_n(2, 2)))
-print(asyncio.run(wait_n(2, 2)))
