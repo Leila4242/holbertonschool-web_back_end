@@ -39,17 +39,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         a = await wait_random(max_delay)
         result.append(a)
     return result
-
-
-if __name__ == "__main__":
-    import sys
-
-    try:
-        n = int(sys.argv[1]) if len(sys.argv) > 1 else 5
-        max_delay = int(sys.argv[2]) if len(sys.argv) > 2 else 3
-    except ValueError:
-        print("Usage: python 1-concurrent_coroutines.py [n] [max_delay]")
-        sys.exit(1)
-
-    res = asyncio.run(wait_n(n, max_delay))
-    print(res)
