@@ -1,4 +1,3 @@
 export default function getStudentIdsSum(studentArray){
-    let total = 0;
-    return studentArray.reduce(student => student.id + total);
+    return studentArray.reduce((total,student)=> student.id + total, 0);
 }
